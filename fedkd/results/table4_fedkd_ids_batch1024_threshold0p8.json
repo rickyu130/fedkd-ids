@@ -1,0 +1,20 @@
+{
+  "method": "FedKD-IDS",
+  "scenario": 1,
+  "partition": 1,
+  "threshold": "0.8 * mean(HM)",
+  "local_verifier_theta": 0.8,
+  "rounds": 100,
+  "local_epochs": 5,
+  "verifier_epochs": 5,
+  "distill_epochs": 5,
+  "batch_size": 1024,
+  "learning_rate": 0.0001,
+  "client_workers": 1,
+  "threshold_factor": 0.8,
+  "seed": 7,
+  "split_seed": 7,
+  "device": "cuda",
+  "data": "/root/autodl-tmp/fedkd/table4_partition1_full.npz",
+  "collaborators": 27
+}
